@@ -15,6 +15,9 @@
         android:theme="@style/Theme.NewslyRecyclerViewRetrofit"
         tools:targetApi="31">
         <activity
+            android:name=".FragmentMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailInfoActivity"
             android:exported="false" />
         <activity
